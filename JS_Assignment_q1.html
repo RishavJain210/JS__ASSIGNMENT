@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS Assignment 1</title>
+    <script src="example.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #e9fcff;
+        }
+
+        hr {
+            background-color: none;
+            border-style: dotted none none;
+            height: 0px;
+            border-color: grey;
+            border-width: 5px;
+            width: 10%;
+        }
+
+        h1 {
+            font-size: xx-large;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        p {
+            font-size: large;
+            font-family: 'Merriweather', serif;
+        }
+
+        h2 {
+            font-family: 'Merriweather', serif;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 style="text-decoration: underline;">ASSIGNMENT</h1>
+        <table width="100%">
+            <thead>
+                <th>
+                    <h2>Name</h2>
+                </th>
+                <th>
+                    <h2>Rishav Jain</h2>
+                </th>
+            </thead>
+            <thead>
+                <th>
+                    <h2>Roll</h2>
+                </th>
+                <th>
+                    <h2>2006095</h2>
+                </th>
+            </thead>
+            <thead>
+                <th>
+                    <h2>Batch</h2>
+                </th>
+                <th>
+                    <h2>CSE1 A2</h2>
+                </th>
+            </thead>
+            <thead>
+                <th>
+                    <h2>Date</h2>
+                </th>
+                <th>
+                    <h2>29-10-2021</h2>
+                </th>
+            </thead>
+        </table>
+    </center>
+    <hr>
+    <h1>AIM : <em>Create a HTML page and show the procedure of connecting JS file with it.</em></h1>
+    <hr>
+    <h2>Procedure of connecting JS file with HTML file : </h2>
+    <p>We can include JavaScript in our HTML in three ways :</p>
+    <ul>
+        <li>Embedding Code</li>
+        <li>Inline Code</li>
+        <li>External File</li>
+    </ul>
+    <hr>
+    <h1 style="text-decoration: underline;">Embedding Code</h1>
+    <p>To add the JavaScript code into the HTML pages, we can use the script tag of the HTML that wrap around JavaScript
+        code inside the HTML program.</p>
+    <p> We can also define JS code in body tag or head tag.</p>
+    <script>document.write("This is an example of Embedding Code.")</script>
+    <script>document.write("In this example we saw how to add JavaScript in the body section")</script>
+    <script>console.log("This is an example of Embedding Code.")</script>
+    <hr>
+    <h1 style="text-decoration: underline;">Inline Code</h1>
+    <p>Generally, this method is used when we have to call a function in the HTML event attributes.</p>
+    <p> There are many cases (or events) in which we have to add JavaScript code directly eg., OnMover event, OnClick,
+        etc.</p>
+    <p><a href="#" onclick="alert('This is an example of Inline Code')">Click Here</a></p>
+    <hr>
+    <h1 style="text-decoration: underline;">External File</h1>
+    <p>We can create external JavaScript file and embed it in many html page.</p>
+    <p>It provides code re usability because single JavaScript file can be used in several html pages.</p>
+    <p>An external JavaScript file must be saved by .js extension. It is recommended to embed all JavaScript files into
+        a single file. It increases the speed of the webpage.</p>
+    <a href="#" onclick="JS_example()">Click Here</a>
+    <hr>
+</body>
+
+</html>
